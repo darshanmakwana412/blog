@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Darshan Makwana</title>
-    <link>https://darshanmakwana412.github.io/</link>
+    <link>https://darshanmakwana412.github.io/blog/</link>
     <description>Recent content in Home on Darshan Makwana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://darshanmakwana412.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://darshanmakwana412.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Analysis of the Stable Matching Problem</title>
-      <link>https://darshanmakwana412.github.io/post/2024/10/01/an-analysis-of-the-stable-matching-problem/</link>
+      <link>https://darshanmakwana412.github.io/blog/post/2024/10/01/an-analysis-of-the-stable-matching-problem/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://darshanmakwana412.github.io/post/2024/10/01/an-analysis-of-the-stable-matching-problem/</guid>
+      <guid>https://darshanmakwana412.github.io/blog/post/2024/10/01/an-analysis-of-the-stable-matching-problem/</guid>
       <description>Imagine matching n men and n women such that no pair of individuals would prefer each other over their current matches. If such a scenario exists where no two individuals would rather be with each other than their assigned partners, the matching is deemed stable. More formally a Matching is a bijection between two sets (e.g., men and women), where each element from one set is paired with exactly one element from the other set and a matching is stable if there are no two elements, one from each set, who would both prefer each other over their current matches.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://darshanmakwana412.github.io/about/</link>
+      <link>https://darshanmakwana412.github.io/blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darshanmakwana412.github.io/about/</guid>
+      <guid>https://darshanmakwana412.github.io/blog/about/</guid>
       <description>XMin is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the blogdown book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal.</description>
     </item>
     
