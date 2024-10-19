@@ -15,8 +15,6 @@
       
       <li><a href="/blog">Home</a></li>
       
-      <li><a href="/blog/about/">About</a></li>
-      
       <li><a href="/blog/categories/">Categories</a></li>
       
       <li><a href="/blog/tags/">Tags</a></li>
@@ -144,7 +142,7 @@ Stable Matching: <span style="color:#f92672">[</span>0, 1, 2<span style="color:#
     plt<span style="color:#f92672">.</span>show()
 
 visualize_matching(men_preferences, women_preferences, result)
-</code></pre></div><p><img src="/images/sm.png" alt="Stable Matching"></p>
+</code></pre></div><p><img src="/blog/images/sm.png" alt="Stable Matching"></p>
 <h3 id="stability-of-the-matchings">Stability of the Matchings</h3>
 <p>One of the most important characteristics of the Gale-Shapley algorithm is the stability of the matchings it produces. Stability means that no pair of individuals from opposite sets (men and women) would prefer each other over their current matches.</p>
 <p>We can analyze stability visually by considering <strong>preference rankings</strong> and how the algorithm satisfies each participant’s preferences. Consider an example where:</p>
@@ -196,7 +194,7 @@ visualize_matching(men_preferences, women_preferences, result)
     plt<span style="color:#f92672">.</span>show()
 
 plot_proposals_dynamics(men_preferences, women_preferences)
-</code></pre></div><p><img src="/images/sm1.png" alt="Dynamics of Stable Matching"></p>
+</code></pre></div><p><img src="/blog/images/sm1.png" alt="Dynamics of Stable Matching"></p>
 <p>This plot shows the number of free men after each round of proposals. As the algorithm progresses, the number of free men decreases until all participants are matched, indicating the matching&rsquo;s convergence.</p>
 <h3 id="optimality-who-benefits">Optimality: Who Benefits?</h3>
 <p>Men propose in decreasing order of preference, meaning each man is guaranteed the best match possible among all stable matchings. On the other hand, women are left with the least preferred partners they could have in any stable matching. The Gale-Shapley algorithm optimizes for the proposing group, as most men will be paired with their highly preferred partners.</p>
@@ -217,7 +215,7 @@ plot_proposals_dynamics(men_preferences, women_preferences)
     plt<span style="color:#f92672">.</span>show()
 
 plot_women_optimality(women_preferences, result)
-</code></pre></div><p><img src="/images/sm3.png" alt="Suboptimal for women plot"></p>
+</code></pre></div><p><img src="/blog/images/sm3.png" alt="Suboptimal for women plot"></p>
 <p>This plot reveals that women generally end up with less optimal partners compared to men, as the algorithm is biased in favor of the proposing group. The higher ranks for women indicate suboptimal matches.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>The Gale-Shapley algorithm consistently finds stable matchings in ( O(n^2) ) time, making it computationally efficient even for large datasets. The proposal dynamics show that the number of free men decreases steadily with each round of proposals, ensuring rapid convergence to a stable matching.</p>
