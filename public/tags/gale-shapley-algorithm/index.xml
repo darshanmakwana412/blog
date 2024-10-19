@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gale-Shapley Algorithm on Darshan Makwana</title>
+    <link>https://darshanmakwana412.github.io/tags/gale-shapley-algorithm/</link>
+    <description>Recent content in Gale-Shapley Algorithm on Darshan Makwana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://darshanmakwana412.github.io/tags/gale-shapley-algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Analysis of the Stable Matching Problem</title>
+      <link>https://darshanmakwana412.github.io/post/2024/10/01/an-analysis-of-the-stable-matching-problem/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://darshanmakwana412.github.io/post/2024/10/01/an-analysis-of-the-stable-matching-problem/</guid>
+      <description>Imagine matching n men and n women such that no pair of individuals would prefer each other over their current matches. If such a scenario exists where no two individuals would rather be with each other than their assigned partners, the matching is deemed stable. More formally a Matching is a bijection between two sets (e.g., men and women), where each element from one set is paired with exactly one element from the other set and a matching is stable if there are no two elements, one from each set, who would both prefer each other over their current matches.</description>
+    </item>
+    
+  </channel>
+</rss>
